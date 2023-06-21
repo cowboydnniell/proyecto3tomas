@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    width: 500px;
+
+
+}
+.navbar-stick-static-top{
+    background-color: rgb(232, 187, 250) !important;
+    border: none;
+}
+title{
+    font-family: 'Gunmetal', sans-serif;
+    font-size: 40px;
+    align-content: center;
+
+
+}
+input:focus{
+    outline: 4px solid rgb(169, 185, 238);
+}
+hr{
+    color: azure;
+}
+table{
+    margin-left: 200px;
+    background-color: rgb(255, 138, 245);
+    color: white;
+    text-align: center;
+    width: 700px;
+}
+th{
+    color: black;
+}
+rels{
+    color: yellow;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+rosa{
+    color: violet;
+}
+morado{
+    color: rgb(68, 152, 86);
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    box-shadow: black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even){
+background-color:blue;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.titulo{ 
+    font-family: 'Modern LED' Board-7 sans-serif;
+    font-size: 80px;
+    background-color: black;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 200;
+    mix-blend-mode: multiply;
+}                               

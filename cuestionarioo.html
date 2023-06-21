@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Api Movies</title>
+</head>
+<style>
+  .navbar{
+        border: 5px solid #ad5683; /*borde*/
+        
+      }
+      .navbar-inverse{ 
+        background-image:  none; /*si o si*/
+        background-color: #ACD6FF; /*fondo*/
+      }
+      .navbar-inverse .navbar-brand { /*texto de inicio*/
+        color: #7A3C56;
+      }
+      .navbar-inverse .navbar-brand:hover,
+      .navbar-inverse .navbar-brand:focus { /*cuando se pone el cursor*/
+        color: #0066CC;
+      }
+      .navbar-inverse .navbar-nav > li > a { /*texto del contenido*/
+        color: #7A3C70;
+      }
+      .navbar-inverse .navbar-nav > li > a:hover,
+      .navbar-inverse .navbar-nav > li > a:focus { /*cuando se pone el cursor*/
+         color: #53284C;
+      }
+}
+    </style>
+<body>
+    <div style="margin: 24px;">
+    <nav class="navbar navbar-light" style="background-color: #ad5683;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="formulario.html">Formulario</a>
+          </li>
+          <li>
+            <a href="resultado.html">Resultado</a>
+          </li>
+          <li>
+            <a href="perfil.html">Contacto</a>
+          </li>
+          <li>
+            <a href="pelicule.html">Peliculas</a>
+          </li>
+          <li>
+            <a href="fisica.html">Fisica</a>
+          </li>
+          <li>
+            <a href="calculadora.html">Calculadora</a>
+        </li>
+        <li>
+            <a href="cuestionarioo.html">Cuestionario</a>
+          </li><!DOCTYPE html>
+
+        </ul>
+      </div>
+    </nav>
+        </div>
+        <div class="container">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="image-container">
+                        <img src="https://www.bbva.com/wp-content/uploads/2020/02/tierra-planeta-mundo-globo-terraqueo-mundo-vida.jpg" style="width: 200px">
+                    </div>
+                    <h2 id="question">como cuidas al planeta tierra?</h2>
+                    <ul>
+                        <li>
+                            <input type="radio" id="answer" id="a" class="answer">
+                            <label for="a" id="a_text">consumo menos energia</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="answer" id="b" class="answer">
+                            <label for="b" id="b_text">tiro la basura en su debido lugar</label>
+                        </li><li>
+                            <input type="radio" id="answer" id="c" class="answer">
+                            <label for="c" id="c_text">cuido el agua</label>
+                        </li><li>
+                            <input type="radio" id="answer" id="d" class="answer">
+                            <label for="d" id="d_text">suelo caminar para no usar coche</label>
+                        </li>
+                    </ul>
+                </div>
+                <button id="submit">ENVIAR</button>
+            </div>
+        </div>
+        <script>
+            const quizData = [
+                {
+                    question: "QUIEN ES EL MEJOR PERSONAJE DE LOS VENGADORES??",
+                    Image: "quiz1.jpg"
+                    a: "iron man"
+                    b: "capitan america"
+                    c: "thor"
+                    d: "wanda"
+                    correct: "a"
+                },
+                
+            ]
+        </script>
+        <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section about">
+              <h2>CONTACTAME</h2>
+              <p>si estas interesado en contactarme puedes hacerlo atravez de cualquiera de las siguientes redes sociales </p>
+              <div class="contact-links">
+                <a href="http://www.facebook.com/miperfil" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.instagram.com/miperfil" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.snapchat.com/miperfil" target="_blank"><i class="fab fa-snapchat"></i></a>
+                <a href="http://www.twitter.com/miperfil" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.youtube.com/miperfil" target="_blank"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
